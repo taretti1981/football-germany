@@ -11,10 +11,10 @@ with open('1-bundesliga.csv', 'r') as csvFile:
     csvTable = list(csvTable)
 
 
-connection = mysql.connector.connect(host='195.201.131.193',
-                        database='football',
-                        user='root',
-                        password='e(7&UE<1v)i6k=7P',
+connection = mysql.connector.connect(host='host-address',
+                        database='dbname',
+                        user='user-name',
+                        password='your-password',
                         use_pure=True)
 cursor = connection.cursor(cursor_class=MySQLCursorPrepared)
 sql_insert_query = """ INSERT INTO `football_germany`
