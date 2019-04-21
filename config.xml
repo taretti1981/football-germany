@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<database>
-	<host>host-address</host>
-	<user>user-name</user>
-	<password>your-password</password>
-	<dbname>your-db-name</dbname>
-	<port>3306</port>
-	<engine>mysql</engine>
-</database>
